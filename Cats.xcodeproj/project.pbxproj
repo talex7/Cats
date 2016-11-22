@@ -13,6 +13,8 @@
 		7444CC7C1DE3D2F200BF00A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7444CC7A1DE3D2F200BF00A4 /* Main.storyboard */; };
 		7444CC7E1DE3D2F200BF00A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7444CC7D1DE3D2F200BF00A4 /* Assets.xcassets */; };
 		7444CC811DE3D2F200BF00A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7444CC7F1DE3D2F200BF00A4 /* LaunchScreen.storyboard */; };
+		7444CC8A1DE3F1EC00BF00A4 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444CC891DE3F1EC00BF00A4 /* Photo.m */; };
+		7444CC8D1DE3F3BF00BF00A4 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444CC8C1DE3F3BF00BF00A4 /* PhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7444CC7D1DE3D2F200BF00A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7444CC801DE3D2F200BF00A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7444CC821DE3D2F200BF00A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7444CC881DE3F1EC00BF00A4 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		7444CC891DE3F1EC00BF00A4 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		7444CC8B1DE3F3BF00BF00A4 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		7444CC8C1DE3F3BF00BF00A4 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				7444CC7F1DE3D2F200BF00A4 /* LaunchScreen.storyboard */,
 				7444CC821DE3D2F200BF00A4 /* Info.plist */,
 				7444CC711DE3D2F200BF00A4 /* Supporting Files */,
+				7444CC881DE3F1EC00BF00A4 /* Photo.h */,
+				7444CC891DE3F1EC00BF00A4 /* Photo.m */,
+				7444CC8B1DE3F3BF00BF00A4 /* PhotoCollectionViewCell.h */,
+				7444CC8C1DE3F3BF00BF00A4 /* PhotoCollectionViewCell.m */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -151,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7444CC8A1DE3F1EC00BF00A4 /* Photo.m in Sources */,
 				7444CC791DE3D2F200BF00A4 /* ViewController.m in Sources */,
 				7444CC761DE3D2F200BF00A4 /* AppDelegate.m in Sources */,
+				7444CC8D1DE3F3BF00BF00A4 /* PhotoCollectionViewCell.m in Sources */,
 				7444CC731DE3D2F200BF00A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
