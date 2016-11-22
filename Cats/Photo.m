@@ -16,7 +16,6 @@
     if (self) {
         _title = [NSString stringWithFormat: @"%@", dict[@"title"]];
         _url = [NSString stringWithFormat: @"https://farm%@.staticflickr.com/%@/%@_%@.jpg", dict[@"farm"], dict[@"server"], dict[@"id"], dict[@"secret"]];
-        NSLog(@"%@ \n %@", _url, _title);
     }
     return self;
 }
